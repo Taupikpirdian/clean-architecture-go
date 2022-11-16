@@ -1,8 +1,8 @@
 package phone
 
 import (
-	"challenge/clean-architecture-go/internal/repository/mocks"
-	"challenge/clean-architecture-go/testdata"
+	"clean-architecture-go/internal/repository/mocks"
+	"clean-architecture-go/testdata"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

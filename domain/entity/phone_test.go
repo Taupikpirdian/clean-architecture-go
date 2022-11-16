@@ -1,7 +1,7 @@
 package entity_test
 
 import (
-	"challenge/clean-architecture-go/domain/entity"
+	"clean-architecture-go/domain/entity"
 	"testing"
 	"time"
 
@@ -9,7 +9,7 @@ import (
 )
 
 /*
-	positif casenya
+positif casenya
 */
 func TestNewPhone(t *testing.T) {
 	phone, err := entity.NewPhone(
@@ -29,7 +29,7 @@ func TestNewPhone(t *testing.T) {
 }
 
 /*
-	negatif casenya
+negatif casenya
 */
 func TestValidasiErrorNewPhoneMerk(t *testing.T) {
 	_, err := entity.NewPhone(

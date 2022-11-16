@@ -1,9 +1,9 @@
 package phone_test
 
 import (
-	"challenge/clean-architecture-go/internal/delivery/http/phone"
-	"challenge/clean-architecture-go/internal/usecase/mocks"
-	"challenge/clean-architecture-go/testdata"
+	"clean-architecture-go/internal/delivery/http/phone"
+	"clean-architecture-go/internal/usecase/mocks"
+	"clean-architecture-go/testdata"
 	"io"
 	"net/http"
 	"net/http/httptest"

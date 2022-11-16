@@ -1,7 +1,7 @@
 package mocks
 
 import (
-	"challenge/clean-architecture-go/domain/entity"
+	"clean-architecture-go/domain/entity"
 	"time"
 
 	"github.com/stretchr/testify/mock"

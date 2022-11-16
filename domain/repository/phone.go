@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"challenge/clean-architecture-go/domain/entity"
+	"clean-architecture-go/domain/entity"
 	"time"
 )
 

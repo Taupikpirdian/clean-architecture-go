@@ -1,9 +1,9 @@
 package main
 
 import (
-	phone_handler "challenge/clean-architecture-go/internal/delivery/http/phone"
-	"challenge/clean-architecture-go/internal/repository/mocks"
-	internal_usecase "challenge/clean-architecture-go/internal/usecase/phone"
+	phone_handler "clean-architecture-go/internal/delivery/http/phone"
+	"clean-architecture-go/internal/repository/mocks"
+	internal_usecase "clean-architecture-go/internal/usecase/phone"
 	"fmt"
 	"net/http"
 
